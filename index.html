@@ -3,17 +3,20 @@
         <title>Unofficial Nogizaka subtitles</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="style.css">
+        
+
     </head>
     <body>
         <div>
             <h1>Unofficial Nogizaka subtitles</h1>
-            <p>Subtitles of videos of the <a href="https://www.youtube.com/@nogizakahaishinchu" >Nogizaka Haishinchuu channel</a>. 
-            Generated and translated with AI.</p>
+            <p>Subtitles of videos of the <a href="https://www.youtube.com/@nogizakahaishinchu" >Nogizaka Haishinchuu channel</a>, and more. 
+            Generated and translated with AI, plus human revision.</p>
         </div>
 
         <h2>Nogizaka Haishinchuu</h2>
 
-        <table>
+        <!-- TODO tooltip of links-->
+        <table id="haishinchuu">
             <tr>
                 <th>Sub date</th>
                 <th>English title</th>
@@ -177,9 +180,10 @@
             </tr>
         </table>
 
-        <h2>Subarashiki Kana, sensei!</h2>
+        <h2 id="subarashiki_header_id">Subarashiki Kana, sensei!</h2>
         <p>Series starring Ikuta Erika about her life as a teacher. Broadcast in 2024</p>
-        <table>
+        
+        <table id="subarashiki_table_id">
             <tr>
                 <th>Air date</th>
                 <th>Sub date</th>
@@ -188,53 +192,12 @@
                 <th>Link to subs</th>
             </tr>
             
-            <tr>
-                <td>2024-08-18</td>
-                <td>2025-08-23</td>
-                <td>1</td>
-                <td>Aidoru-online, 20240818 Erika Ikuta (ex-Nogizaka46), Nako Yabuki (ex-HKT48), Yui Oguri (AKB48) - Subarashiki Kana, Sensei! Ep01 [TVer][1080p MP4]</td>
-                <td>
-                    <a
-                        target="_blank"
-                        href="https://github.com/nevepura/nogisubs2/blob/main/subarashiki_kana_sensei/ep01/subarashiki_ep01.srt"
-                    >
-                        Subs
-                    </a>
-                </td>
-            </tr>
-            
-            <tr>
-                <td>2024-08-25</td>
-                <td>2025-08-25</td>
-                <td>2</td>
-                <td>Aidoru-online, 20240825 Erika Ikuta (ex-Nogizaka46), Nako Yabuki (ex-HKT48), Yui Oguri (AKB48) - Subarashiki Kana, Sensei! Ep02 [TVer][1080p MP4]</td>
-                <td>
-                    <a
-                        target="_blank"
-                        href="https://github.com/nevepura/nogisubs2/blob/main/subarashiki_kana_sensei/ep02/subarashiki_ep02.srt"
-                    >
-                        Subs
-                    </a>
-                </td>
-            </tr>
-
-            <tr>
-                <td>2024-09-01</td>
-                <td>2025-08-28</td>
-                <td>3</td>
-                <td>Aidoru-online, 20240901 Erika Ikuta (ex-Nogizaka46), Nako Yabuki (ex-HKT48), Yui Oguri (AKB48) - Subarashiki Kana, Sensei! Ep03 [TVer][1080p MP4]</td>
-                <td>
-                    <a
-                        target="_blank"
-                        href="https://github.com/nevepura/nogisubs2/blob/main/subarashiki_kana_sensei/ep03/subarashiki_ep03.srt"
-                    >
-                        Subs
-                    </a>
-                </td>
-            </tr>
+            <!-- data load dinamically-->
         </table>
         
         <br/><br/><br/>
+        <script src="subarashiki_kana_sensei.js" ></script>
+        <script src="dataLoader.js" ></script>
     </body>
 
 </html>
