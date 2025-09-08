@@ -1,6 +1,3 @@
-console.log("start")
-
-
 // Load "Subarashiki Kana Sensei" data.
 
 const subarashikiTable = document.querySelector("#subarashiki_table_id")
@@ -12,9 +9,23 @@ subarashikiData.forEach(ep => {
     tr.appendChild(createCell(ep.episodeNumber));
     tr.appendChild(createCell(ep.video));
     tr.appendChild(createCellWithLink(ep.subsLink));
-    console.log('cur row: '+ tr.outerHTML)
+    //console.log('cur row: '+ tr.outerHTML)
     subarashikiTable.appendChild(tr);
 });
+
+// Load Haishinchuu data
+
+const haishinchuuTable = document.querySelector("#haishinchuu_table_id");
+//console.log(haishinchuuTable.outerHTML) 
+haishinchuuData.forEach(el => {
+    var tr = document.createElement("tr")
+    tr.appendChild(createCell(el.subDate))
+    tr.appendChild(createCell(el.engTitle))
+    tr.appendChild(createCell(el.japTitle))
+    tr.appendChild(createCellWithLink(el.linkVideo))
+    tr.appendChild(createCellWithLink(el.linkSubs))
+    haishinchuuTable.appendChild(tr)
+})
 
 
 function createCell(content){
@@ -38,5 +49,3 @@ function createCellWithLink(content){
 
     return cell;
 }
-
-console.log("end")
