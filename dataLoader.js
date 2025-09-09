@@ -8,7 +8,7 @@ subarashikiData.forEach(ep => {
     tr.appendChild(createCell(ep.subDate));
     tr.appendChild(createCell(ep.episodeNumber));
     tr.appendChild(createCell(ep.video));
-    tr.appendChild(createCellWithLink(ep.subsLink));
+    tr.appendChild(createCellWithLink(ep.subsLink, 'Subs'));
     subarashikiTable.appendChild(tr);
 });
 
@@ -21,8 +21,8 @@ haishinchuuData.forEach(el => {
     tr.appendChild(createCell(el.subDate))
     tr.appendChild(createCell(el.engTitle))
     tr.appendChild(createCell(el.japTitle))
-    tr.appendChild(createCellWithLink(el.linkVideo))
-    tr.appendChild(createCellWithLink(el.linkSubs))
+    tr.appendChild(createCellWithLink(el.linkVideo, "Video"))
+    tr.appendChild(createCellWithLink(el.linkSubs, "Subs"))
     haishinchuuTable.appendChild(tr)
 })
 
@@ -37,11 +37,11 @@ function createCell(content){
 }
 
 
-function createCellWithLink(content){
+function createCellWithLink(link, text){
     const a = document.createElement('a');
     a.target = '_blank';
-    a.href = content;
-    a.textContent = 'Subs';
+    a.href = link;
+    a.textContent = text;
 
     var cell = document.createElement('td');
     cell.appendChild(a);
