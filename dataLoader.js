@@ -9,7 +9,6 @@ subarashikiData.forEach(ep => {
     tr.appendChild(createCell(ep.episodeNumber));
     tr.appendChild(createCell(ep.video));
     tr.appendChild(createCellWithLink(ep.subsLink));
-    //console.log('cur row: '+ tr.outerHTML)
     subarashikiTable.appendChild(tr);
 });
 
