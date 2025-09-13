@@ -1,5 +1,13 @@
 const haishinchuuData = [
     {
+        "videoDate": '2025-08-15',
+        "subDate": '2025-09-14',
+        "engTitle": "[Please enjoy it as much as we do!] Midsummer National Tour 2025 PR Strategy! Kagawa Edition [Kagawa performances start tomorrow🎤]",
+        "japTitle": '【同じように楽しんでみてください♪】真夏の全国ツアー2025PR大作戦！香川篇【明日からは香川公演🎤】',
+        "linkVideo": 'https://www.youtube.com/watch?v=QX8ucln_zTI',
+        "linkSubs": 'https://github.com/nevepura/nogisubs2/blob/main/haishinchuu/20250815_kagawa_kaki_urumi_nagi/kagawa_kaki_urumi_nagi.srt',
+    },
+    {
         "subDate": '2025-09-01',
         "engTitle": "[For the first time in their lives!] Masuda Mirine and Yada Moeka visit the coveted Harajuku! [Mirine's quotes are all revealed! A new nickname too?!]",
         "japTitle": '【人生初！】増田三莉音と矢田萌華が憧れの原宿にいってみた！【三莉音語録全開！新しいあだ名も？！',
