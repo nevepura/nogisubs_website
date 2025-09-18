@@ -1,4 +1,12 @@
 const haishinchuuData = [
+	{
+        "videoDate": '2025-09-13',
+        "subDate": '2025-09-18',
+        "engTitle": '[Behind the Scenes] Ichinose was filming the entire Tokyo performance of the Midsummer National Tour 2025 ♪ [Meiji Jingu Baseball Stadium]',
+        "japTitle": '【ライブ裏側】真夏の全国ツアー2025 東京公演で一ノ瀬がずっとカメラ回してくれました♪【明治神宮野球場】',
+        "linkVideo": 'https://www.youtube.com/watch?v=uDTVynKuuYc',
+        "linkSubs": 'https://github.com/nevepura/nogisubs2/blob/main/haishinchuu/20250917_ichinose_tour_jingu/ichinose_jingu.srt',
+    },
     {
         "videoDate": '2025-08-15',
         "subDate": '2025-09-14',
