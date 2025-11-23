@@ -34,5 +34,12 @@ const subarashikiData = [
         "video": "Aidoru-online, ... Ep05 [TVer][1080p MP4]",
         "subsLink": "https://github.com/nevepura/nogisubs2/blob/main/subarashiki_kana_sensei/ep05/subarashiki_ep05.srt"
     },
+    {
+        "airDate": "2024-09-22",
+        "subDate": "2025-11-23",
+        "episodeNumber": 6,
+        "video": "Aidoru-online, ... Ep06 [TVer][1080p MP4]",
+        "subsLink": "https://github.com/nevepura/nogisubs2/blob/main/subarashiki_kana_sensei/ep06/subarashiki_ep06.srt"
+    },
 
 ]
