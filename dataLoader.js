@@ -15,7 +15,6 @@ subarashikiData.forEach(ep => {
 // Load Haishinchuu data
 
 const haishinchuuTable = document.querySelector("#haishinchuu_table_id");
-//console.log(haishinchuuTable.outerHTML) 
 haishinchuuData.forEach(el => {
     var tr = document.createElement("tr")
     tr.appendChild(createCell(el.subDate))
@@ -24,6 +23,19 @@ haishinchuuData.forEach(el => {
     tr.appendChild(createCellWithLink(el.linkVideo, "Video"))
     tr.appendChild(createCellWithLink(el.linkSubs, "Subs"))
     haishinchuuTable.appendChild(tr)
+})
+
+// Load Another Sky data
+
+const anotherskyTable = document.querySelector("#anothersky_table_id");
+anotherskyData.forEach(el => {
+    var tr = document.createElement("tr")
+    tr.appendChild(createCell(el.airDate))
+    tr.appendChild(createCell(el.subDate))
+    tr.appendChild(createCell(el.engTitle))
+    tr.appendChild(createCell(el.videoSource))
+    tr.appendChild(createCellWithLink(el.linkSubs, "Subs"))
+    anotherskyTable.appendChild(tr)
 })
 
 
