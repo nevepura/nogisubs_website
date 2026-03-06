@@ -17,6 +17,7 @@ subarashikiData.forEach(ep => {
 const haishinchuuTable = document.querySelector("#haishinchuu_table_id");
 haishinchuuData.forEach(el => {
     var tr = document.createElement("tr")
+    tr.appendChild(createCell(el.airDate != undefined ? el.airDate : ''))
     tr.appendChild(createCell(el.subDate))
     tr.appendChild(createCell(el.engTitle))
     tr.appendChild(createCell(el.japTitle))
