@@ -1,5 +1,13 @@
 const haishinchuuData = [
     {
+        "airDate": '2026-03-10',
+        "subDate": '2026-03-11',
+        "engTitle": 'Documentary of 41stSG Under Live ~A different view from the 6th generation~ Part 2',
+        "japTitle": 'Documentary of 41stSG アンダーライブ～6期生と違う景色～第2回',
+        "linkVideo": 'https://www.youtube.com/watch?v=mvphuDcX_pk',
+        "linkSubs": 'https://github.com/nevepura/nogisubs2/blob/main/haishinchuu/20260310_41st_single_documentary_p2/41st_doc_p2.srt',
+    },
+    {
         "airDate": '2026-03-04',
         "subDate": '2026-03-06',
         "engTitle": 'Documentary of 41stSG Under Live ~A Different View from the 6th Generation~ Teaser Edition',
